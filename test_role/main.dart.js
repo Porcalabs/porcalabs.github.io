@@ -67249,9 +67249,9 @@ if(B.f.bk(s,3)===0||s===19)A.lA(o,!1,t.Lb).x.hT(70*s,B.bd,B.cD)}},
 $S:0}
 A.a2w.prototype={
 $1(a){var s,r=null,q=A.jx(30),p=A.oP(B.bc,10),o=t.E,n=A.a([],o),m=this.a
-if(m===1)B.b.u(n,A.a([A.FD("assets/images/hipster_card.jpg",r,r)],o))
-if(m===2)B.b.u(n,A.a([A.FD("assets/images/hustler_card.jpg",r,r)],o))
-if(m===3)B.b.u(n,A.a([A.FD("assets/images/hacker_card.jpg",r,r)],o))
+if(m===1)B.b.u(n,A.a([A.FD("assets/images/hipster_card.png",r,r)],o))
+if(m===2)B.b.u(n,A.a([A.FD("assets/images/hustler_card.png",r,r)],o))
+if(m===3)B.b.u(n,A.a([A.FD("assets/images/hacker_card.png",r,r)],o))
 n.push(B.vT)
 s=A.jx(20)
 n.push(A.jP(r,A.er(r,B.RU,r,r,new A.dF(B.an,r,A.oP(B.bc,10),s,r,r,B.a6),r,r,B.kx,r),B.a9,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.a2v(m,a),r,r,r,r,r,r))
@@ -67262,11 +67262,11 @@ $S:127}
 A.a2v.prototype={
 $0(){var s=0,r=A.a0(t.H),q=this,p,o,n
 var $async$$0=A.a1(function(a,b){if(a===1)return A.Y(b,r)
-while(true)switch(s){case 0:switch(q.a){case 1:p="https://realpha39.github.io/test_role/assets/assets/images/hipster_card.jpg"
+while(true)switch(s){case 0:switch(q.a){case 1:p="https://realpha39.github.io/test_role/assets/assets/images/hipster_card.png"
 break
-case 2:p="https://realpha39.github.io/test_role/assets/assets/images/hustler_card.jpg"
+case 2:p="https://realpha39.github.io/test_role/assets/assets/images/hustler_card.png"
 break
-default:p="https://realpha39.github.io/test_role/assets/assets/images/hacker_card.jpg"}o=A.ys(p,0,null)
+default:p="https://realpha39.github.io/test_role/assets/assets/images/hacker_card.png"}o=A.ys(p,0,null)
 s=5
 return A.a2(A.ah3(o),$async$$0)
 case 5:s=b?2:4
