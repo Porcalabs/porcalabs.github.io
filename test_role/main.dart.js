@@ -21239,7 +21239,8 @@ this.b=b
 this.c=c},
 afY(a,b){A.aor(!0,new A.a2w(b),a,!1,t.z)},
 a2w:function a2w(a){this.a=a},
-a2v:function a2v(a){this.a=a},
+a2v:function a2v(a,b){this.a=a
+this.b=b},
 cK:function cK(a,b,c,d){var _=this
 _.c=a
 _.d=b
@@ -67246,21 +67247,25 @@ if(s<3)return
 if(B.f.bk(s,3)===0||s===19)A.lA(o,!1,t.Lb).x.hT(70*s,B.bd,B.cD)}},
 $S:0}
 A.a2w.prototype={
-$1(a){var s=null,r=A.jx(30),q=A.tA(B.aX,10),p=t.E,o=A.a([],p),n=this.a
-if(n===1)B.b.u(o,A.a([A.FD("assets/images/hipster_card.jpg",s,s)],p))
-if(n===2)B.b.u(o,A.a([A.FD("assets/images/hustler_card.jpg",s,s)],p))
-if(n===3)B.b.u(o,A.a([A.FD("assets/images/hacker_card.jpg",s,s)],p))
-o.push(B.vV)
-n=A.jx(20)
-o.push(A.jP(s,A.er(s,B.RU,s,s,new A.dE(B.au,s,A.tA(B.aX,10),n,s,s,B.a6),s,s,B.ky,s),B.a9,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a2v(a),s,s,s,s,s,s))
-r=A.er(s,A.aeN(o,B.bu,B.eo),s,B.iY,new A.dE(B.au,s,q,r,s,s,B.a6),s,s,B.kw,s)
-q=A.jx(30)
-return A.oW(new A.f2(B.cp,s,B.bn,B.V,A.a([new A.eX(B.kx,r,s),A.er(s,B.RV,s,s,new A.dE(B.au,s,A.tA(B.aX,10),q,s,s,B.a6),s,s,B.dQ,s)],p),s),s,s)},
+$1(a){var s,r=null,q=A.jx(30),p=A.tA(B.aX,10),o=t.E,n=A.a([],o),m=this.a
+if(m===1)B.b.u(n,A.a([A.FD("assets/images/hipster_card.jpg",r,r)],o))
+if(m===2)B.b.u(n,A.a([A.FD("assets/images/hustler_card.jpg",r,r)],o))
+if(m===3)B.b.u(n,A.a([A.FD("assets/images/hacker_card.jpg",r,r)],o))
+n.push(B.vV)
+s=A.jx(20)
+n.push(A.jP(r,A.er(r,B.RU,r,r,new A.dE(B.au,r,A.tA(B.aX,10),s,r,r,B.a6),r,r,B.ky,r),B.a9,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.a2v(m,a),r,r,r,r,r,r))
+q=A.er(r,A.aeN(n,B.bu,B.eo),r,B.iY,new A.dE(B.au,r,p,q,r,r,B.a6),r,r,B.kw,r)
+p=A.jx(30)
+return A.oW(new A.f2(B.cp,r,B.bn,B.V,A.a([new A.eX(B.kx,q,r),A.er(r,B.RV,r,r,new A.dE(B.au,r,A.tA(B.aX,10),p,r,r,B.a6),r,r,B.dQ,r)],o),r),r,r)},
 $S:127}
 A.a2v.prototype={
-$0(){var s=0,r=A.a0(t.H),q=this,p,o
+$0(){var s=0,r=A.a0(t.H),q=this,p,o,n
 var $async$$0=A.a1(function(a,b){if(a===1)return A.Y(b,r)
-while(true)switch(s){case 0:o=A.ys("https://flutter.dev",0,null)
+while(true)switch(s){case 0:switch(q.a){case 1:p="https://realpha39.github.io/test_role/assets/assets/images/hipster_card.jpg"
+break
+case 2:p="https://realpha39.github.io/test_role/assets/assets/images/hustler_card.jpg"
+break
+default:p="https://realpha39.github.io/test_role/assets/assets/images/hacker_card.jpg"}o=A.ys(p,0,null)
 s=5
 return A.a2(A.ah3(o),$async$$0)
 case 5:s=b?2:4
@@ -67269,10 +67274,10 @@ case 2:s=6
 return A.a2(A.ahg(o),$async$$0)
 case 6:s=3
 break
-case 4:p=q.a.ao(t.Pu)
-p.toString
-p.f.CK(B.M6)
-case 3:A.nl(q.a,!1).dY()
+case 4:n=q.b.ao(t.Pu)
+n.toString
+n.f.CK(B.M6)
+case 3:A.nl(q.b,!1).dY()
 return A.Z(null,r)}})
 return A.a_($async$$0,r)},
 $S:28}
