@@ -67291,21 +67291,19 @@ A.cK.prototype={
 R(a){var s=t.Cz
 return A.Cs(new A.a4w(this,A.lA(a,!1,s),A.cG(a,B.dC,t.w).w.a.a/2-37),s,t.Dv)}}
 A.a4w.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=!1,i=!1
-try{s=l.b
+$2(a,b){var s,r,q,p,o,n=this,m=null,l=!1,k=!1
+try{s=n.b
 r=s.x
-j=(r==null?k:r[l.a.e-1].gjA())!=null||!1
-r=l.a.e
+l=(r==null?m:r[n.a.e-1].gjA())!=null||!1
+r=n.a.e
 if(r===1)q=!0
 else{p=s.x
-q=(p==null?k:p[r-2].gjA())!=null&&!0}s=s.x
-i=(s==null?k:s[r-1].gjA())!=null?!1:q}catch(o){return B.eS}s=l.a
-r=i?new A.a4v(s,a):k
-p=i?10:0
-n=i?10:0
-if(i)m="assets/icons/current_step.gif"
-else m=j?"assets/icons/done_step.png":"assets/icons/locked_step.png"
-return A.wx(k,A.jP(B.cH,A.nY(A.FD(m,B.xS,k,k),74+p,74+n),B.a9,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,r,k,k,k,k,k,k),k,k,l.c+s.d,k,s.c,k)},
+q=(p==null?m:p[r-2].gjA())!=null&&!0}s=s.x
+k=(s==null?m:s[r-1].gjA())!=null?!1:q}catch(o){return B.eS}s=n.a
+r=k?new A.a4v(s,a):m
+if(k)p="assets/icons/current_step.gif"
+else p=l?"assets/icons/done_step.png":"assets/icons/locked_step.png"
+return A.wx(m,A.jP(B.cH,A.nY(A.FD(p,B.xS,m,m),74,74),B.a9,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,r,m,m,m,m,m,m),m,m,n.c+s.d,m,s.c,m)},
 $S:66}
 A.a4v.prototype={
 $0(){return A.akm(this.b,this.a.e)},
