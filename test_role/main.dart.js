@@ -82073,7 +82073,7 @@ ajV(a){var s=0,r=A.N(t.H1),q,p=2,o,n=this,m,l,k
 var $async$yO=A.O(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.R(n.a.zB(A.aPK(a),"/",t.z),$async$yO)
+return A.R(n.a.zB(A.aPK(a),"/users",t.z),$async$yO)
 case 7:q=new A.kv(!0,t.iR)
 s=1
 break
