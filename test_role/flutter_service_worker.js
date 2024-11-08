@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "12b2351636d0ad402876dc3083901d18",
+const RESOURCES = {"flutter_bootstrap.js": "b4d4414ef6537f5706e028bc606a1ac9",
 "version.json": "c0d19ecb177e5c09e7710eba26365253",
-"index.html": "337c54e01024490753921704d6b950e5",
-"/": "337c54e01024490753921704d6b950e5",
+"index.html": "fa272b4a898cae940b953f585d59d6f5",
+"/": "fa272b4a898cae940b953f585d59d6f5",
 "main.dart.js": "4cccc17cca8ad560bfaeb9f2c9164ca4",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -32,7 +32,7 @@ const RESOURCES = {"flutter_bootstrap.js": "12b2351636d0ad402876dc3083901d18",
 "assets/assets/icons/extra_step.svg": "df500deede941bbc5f04b17723bade54",
 "assets/assets/icons/current_step.gif": "5a1eea498cc355597bb478fffbb6ba80",
 "assets/assets/icons/locked_step.png": "cead03eb20941bab63168c0ce756ed13",
-"assets/assets/icons/done_step.png": "fe1ecd1aecb0f37b3ef663105c95e4fe",
+"assets/assets/icons/done_step.png": "e94bb0bbd842bbbe2c3ecc2c179d6cb7",
 "assets/assets/question_answer.json": "ea0d7627a06ec1f746aae82be8786b76",
 "canvaskit/skwasm.js": "694fda5704053957c2594de355805228",
 "canvaskit/skwasm.js.symbols": "262f4827a1317abb59d71d6c587a93e2",
